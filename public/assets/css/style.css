@@ -1,0 +1,83 @@
+.main {
+  height: 100%;
+  background: linear-gradient(#136DC2, #0A4E8D, #06243F)!important;
+}
+
+.homepageLogo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 90%;
+  color: white;
+  text-shadow: 2px 2px 8px rgb(7, 55, 179);
+}
+
+.tagline {
+  margin-top: -5px;
+  margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px 8px rgb(7, 55, 179);
+}
+
+.dealsPageLogo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 10px!important;
+  text-shadow: 2px 2px 8px rgb(3, 65, 160);
+}
+
+.signUpForm {
+  margin: 20px;
+}
+
+.bodyDiv {
+  margin-top: 40px;
+}
+
+.stageBackground {
+  background: rgb(206, 239, 245)!important;
+  height: 450px;
+  width: auto;
+  overflow: auto;
+}
+
+.stageBackgroundEnd {
+  background: rgb(206, 239, 245)!important;
+  height: 195px;
+  width: auto;
+  overflow: auto;
+}
+
+.ui.grid>.column:only-child, .ui.grid>.row>.column:only-child {
+  width: 40%;
+}
+
+a {
+  color: rgb(167, 167, 167);
+}
+
+.signUpTitle {
+  color: rgb(70, 70, 70);
+}
+
+.loginForm {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  position: fixed!important;
+  bottom: 0;
+  width: 100%;
+  background: transparent!important;
+}
+
+#deleteDeal {
+  float: left;
+}

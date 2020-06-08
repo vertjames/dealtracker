@@ -1,0 +1,29 @@
+{
+  "name": "Deal_Tracker",
+  "version": "1.0.0",
+  "description": "> Deal Tracker is an application that makes it easy for sales executives to track deals through the sales life cycle. ## Table of Contents * [Installation](#installation) * [Usage](#usage) * [License](#license) * [Team](#team) * [Questions](#questions)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Logan96M/Deal_Tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Logan96M/Deal_Tracker/issues"
+  },
+  "homepage": "https://github.com/Logan96M/Deal_Tracker#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4",
+    "sequelize": "^5.21.11"
+  },
+  "devDependencies": {}
+}
